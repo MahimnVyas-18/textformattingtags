@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>forms in HTML</h1>
+    <form>
+        <div>
+        <!--text input-->
+        <label for="fullname">Enter full name:</label>
+        <input  id="fullname" type="text" placeholder="enter fullname">
+        </div>
+        <br>
+         <!--number input-->
+         <div>
+         <label for="age">Age:</label>
+         <input id="age" type="number" placeholder="enter your age">
+         </div>
+         <br>
+
+         <!--password input-->
+         <div>
+            <label for="password">password:</label>
+            <input type="password">
+         </div>
+         <br>
+         <!--email input-->
+         <div>
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="enter your email">
+         </div>
+         <br>
+         <!--url-->
+         <div>
+            <label for="url">URL</label>
+            <input type="url">
+         </div>
+         <br>
+         <!--telephone number-->
+         <div>
+            <label>phone number:</label>
+            <input type="tel">
+         </div>
+         <br>
+         <!--number input with min and max age-->
+         <div>
+            <label>Age:</label>
+            <input type="number" min="0" max="25">
+         </div>
+         <br>
+         <!--range input-->
+         <div>
+            <label>Range:</label>
+            <input type="range" min="18" max="25">
+         </div>
+         <br>
+         <!--Date input-->
+         <div>
+            <label>Date:</label>
+            <input type="date" > 
+         </div>
+         <br>
+         <!--time input-->
+         <div>
+            <label>time:</label>
+            <input type="time">
+         </div>
+          <br>
+         <!--month input-->
+         <div>
+            <label>month:</label>
+            <input type="month">
+         </div>
+          <br>
+         <!--week  input-->
+         <div>
+            <label>week:</label>
+            <input type="week">
+         </div>
+          <br>
+         <!--color input-->
+         <div>
+            <label>color:</label>
+            <input type="color">
+
+         </div>
+          <br>
+         <!--checkbox input-->
+         <div>
+            <label>select your course:</label>
+            <input type="checkbox">
+            <input type="checkbox">
+         </div>
+          <!--radio button-->
+         <div>
+            <label>radio buttons:</label>
+            <input type="radio"><!--isme multiple select nhi hote sirf ek hi hota hai ek time pe-->
+           
+         </div>
+         <br>
+         <!--file input-->
+         <div>
+            <label>File Input:</label>
+            <input type="file">
+
+         </div>
+         <br>
+         <!--text area input-->
+         <div>
+            <label>description:</label><!--the text area allows multiline text input-->
+            <textarea rows="10" cols="60"></textarea><!--this will change height and wight of our text area-->
+         </div>
+         <br>
+         <!--select dropdown-->
+         <div>
+            <label>choose your course:</label>
+            <select>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+                <option value="NODE.JS">NODE.JS</option>
+                <option value="REACT">REACT</option>
+            </select>
+            <button type="submit">Register</button>
+         </div>
+
+    </form>
+    
+    
+
+    
+</body>
+</html>
